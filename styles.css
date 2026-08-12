@@ -30,3 +30,10 @@ body{background:var(--cream);color:var(--ink)}
 .text-link .arrow-wrap{margin-left:12px}
 .contact-list .arrow-wrap{justify-self:end}
 .footer-bottom a{display:inline-flex;align-items:center;gap:6px}
+
+/* Winter ice-track section */
+.winter-section{display:grid;grid-template-columns:1.08fr .92fr;min-height:760px;background:#e7e1d5}.winter-media{min-height:760px}.winter-copy{padding:110px 7vw;display:flex;flex-direction:column;justify-content:center}.winter-copy .display{font-size:clamp(54px,5.5vw,92px)}.winter-copy p{font-size:15px;line-height:1.85;color:#625f57;max-width:620px;margin:28px 0 0}.winter-copy .winter-note{font-size:12px;color:#7a766d;margin:18px 0 30px;padding-left:18px;border-left:2px solid var(--forest)}.winter-copy .btn{align-self:flex-start}.winter-teaser{position:relative;min-height:78vh;display:flex;align-items:flex-end;padding:9vh 6vw;color:#fff;overflow:hidden}.winter-teaser-bg{position:absolute;inset:0;background:center/cover no-repeat;transform:scale(1.02)}.winter-teaser-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,25,21,.08),rgba(17,23,19,.72))}.winter-teaser-content{position:relative;z-index:2;max-width:900px}.winter-teaser-content h2{font-family:"DM Serif Display",Georgia,serif;font-size:clamp(64px,7.5vw,118px);line-height:.92;font-weight:400;letter-spacing:-.03em;margin:18px 0 26px}.winter-teaser-content h2 em{font-style:italic;font-weight:400}.winter-teaser-content p{max-width:620px;font-size:15px;line-height:1.8;color:rgba(255,255,255,.8);margin-bottom:30px}@media(max-width:900px){.winter-section{grid-template-columns:1fr;min-height:0}.winter-media{min-height:500px}.winter-copy{padding:80px 22px}.winter-teaser{min-height:70vh;padding:80px 22px}.winter-teaser-content h2{font-size:clamp(56px,15vw,88px)}}
+
+
+/* Winter page uses the same layout system as the other inner pages */
+.winter-info-simple{background:#e7e1d5}
