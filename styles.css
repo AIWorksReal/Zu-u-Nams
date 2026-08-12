@@ -22,3 +22,11 @@ body{background:var(--cream);color:var(--ink)}
 @media(max-width:900px){.nav{background:#2e382b}}
 
 .footer-credit{padding-top:16px;font-size:16px;letter-spacing:0;color:rgba(255,255,255,.52)}.footer-credit a{color:#fff;font-weight:700;text-decoration:none;transition:opacity .2s ease}.footer-credit a:hover{opacity:.72}
+
+/* Consistent SVG arrows — prevents mobile emoji rendering */
+.arrow-svg{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.arrow-wrap{display:inline-flex;align-items:center;justify-content:center;line-height:1}
+.icon-link{display:inline-flex;align-items:center;gap:8px}
+.text-link .arrow-wrap{margin-left:12px}
+.contact-list .arrow-wrap{justify-self:end}
+.footer-bottom a{display:inline-flex;align-items:center;gap:6px}
